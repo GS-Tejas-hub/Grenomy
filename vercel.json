@@ -1,6 +1,6 @@
 {
-  "installCommand": "npm install --include=dev",
-  "buildCommand": "npx vite build",
+  "installCommand": "npm ci",
+  "buildCommand": "node node_modules/vite/bin/vite.js build",
   "rewrites": [
     { "source": "/(.*)", "destination": "/" }
   ]
