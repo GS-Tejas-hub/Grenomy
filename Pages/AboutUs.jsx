@@ -110,7 +110,7 @@ export default function AboutUs() {
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p>
-                  Founded in 2020, Grenomy emerged from a simple observation: companies developing sustainable products lacked the sophisticated tools needed to measure and optimize their environmental impact.
+                  Founded in 2025, Grenomy emerged from a simple observation: companies developing sustainable products lacked the sophisticated tools needed to measure and optimize their environmental impact.
                 </p>
                 <p>
                   Our founders, a team of AI researchers and automotive industry veterans, recognized that artificial intelligence could revolutionize how we approach sustainability analysis. What started as a research project has grown into a comprehensive platform trusted by hundreds of companies worldwide.
