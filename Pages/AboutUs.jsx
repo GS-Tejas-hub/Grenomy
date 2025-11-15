@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { createPageUrl } from "@/utils";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button.jsx";
+import { Card, CardContent } from "@/components/ui/card.jsx";
 import { 
   Target,
   Eye,
@@ -14,8 +14,8 @@ import {
   Lightbulb
 } from "lucide-react";
 import { motion } from "framer-motion";
-import { LampContainer } from "@/components/ui/lamp";
-import { ShaderAnimation } from "@/components/ui/shader-lines";
+import { LampContainer } from "@/components/ui/lamp.tsx";
+import { ShaderAnimation } from "@/components/ui/shader-lines.tsx";
 
 export default function AboutUs() {
   const values = [

@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Card, CardContent } from "@/components/ui/card";
-import { Label } from "@/components/ui/label";
+import { Button } from "@/components/ui/button.jsx";
+import { Input } from "@/components/ui/input.jsx";
+import { Textarea } from "@/components/ui/textarea.jsx";
+import { Card, CardContent } from "@/components/ui/card.jsx";
+import { Label } from "@/components/ui/label.jsx";
 import { 
   Mail,
   Phone,
@@ -13,7 +13,7 @@ import {
   Loader2
 } from "lucide-react";
 import { motion } from "framer-motion";
-import ScrollHero from "@/components/ui/ethereal";
+import ScrollHero from "@/components/ui/ethereal.tsx";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
